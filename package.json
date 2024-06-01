@@ -4,15 +4,12 @@
   "description": "My webpack project",
   "scripts": {
     "dev": "turbo dev",
-    "client:build": "turbo --filter client build",
     "server:build": "turbo --filter server build",
-    "dev:client": "turbo --filter client dev",
-    "dev:server": "turbo --filter server dev",
-    "develop:server": "turbo --filter server develop",
-    "watch:server": "turbo --filter server watch",
-    "eslint": "eslint ./",
-    "build": "next build",
-    "eslint-fix": "eslint ./ --fix"
+    "client:build": "turbo --filter client build",
+    "server:dev": "turbo --filter server dev",
+    "client:dev": "turbo --filter client dev",
+    "test": "turbo test"
+   
   },
   "keywords": [],
   "author": "",
