@@ -11,6 +11,7 @@
     "develop:server": "turbo --filter server develop",
     "watch:server": "turbo --filter server watch",
     "eslint": "eslint ./",
+    "build": "next build",
     "eslint-fix": "eslint ./ --fix"
   },
   "keywords": [],
